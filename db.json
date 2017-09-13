@@ -1,11 +1,40 @@
 {
     "posts": [
-      {
-        "id": 1,
-        "title": "hello"
-      }
+        {
+            "id": 1,
+            "title": "hello"
+        }
     ],
     "profile": {
-      "name": "typicode"
+        "uid": "1234567",
+        "idstudent": "2017-ESGI-123456",
+        "civ": "M.",
+        "firstname": "John",
+        "name": "Doe",
+        "maidenname": "",
+        "dateofbirth": "05/11/1993",
+        "nationality": "FRANCAISE",
+        "placeofbirth": "LAXOU",
+        "countryofbirth": "FRANCE",
+        "address1": "55 rue Alfred de Musset",
+        "address2": "",
+        "city": "Grenoble",
+        "zipcode": "77330",
+        "country": "FRANCE",
+        "telephone": "0100000000",
+        "mobile": "0600000000",
+        "mail": "john.doe@test.fr",
+        "ine": "1111111111A",
+        "urlPictureProfile": "https://dl.reseau-ges.fr/public/dcj6AO1JD5_t-PdBOWigoDwNb1YV7-cvx_KvxH9QFt4?pfdrid_c=true"
+    },
+    
+    "emergency": {
+        "iceType": "Mère",
+        "iceFirstName": "Albane",
+        "iceName": "Doe",
+        "iceTelephone": "0100000001",
+        "iceMobile": "0700000001",
+        "iceTelephoneTravail": "0800000001"
     }
-  }
+
+}
