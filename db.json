@@ -5,6 +5,32 @@
             "title": "hello"
         }
     ],
+    "agenda":[
+        {
+            "id":1,
+            "title":"JAVA",
+            "description":"",
+            "startDate":"2017/09/18 9:45",
+            "endDate":"2017/09/18 11:15",
+            "professor":"M. Java"
+        },
+        {
+            "id":2,
+            "title":"JAVA",
+            "description":"",
+            "startDate":"2017/09/18 11:30",
+            "endDate":"2017/09/18 13:00",
+            "professor":"M. Java"
+        },
+        {
+            "id":3,
+            "title":"Thérorie des langages",
+            "description":"",
+            "startDate":"2017/09/18 14:00",
+            "endDate":"2017/09/18 15:30",
+            "professor":"M. Lang"
+        }
+    ],
     "profile": {
         "uid": "1234567",
         "idstudent": "2017-ESGI-123456",
@@ -27,7 +53,6 @@
         "ine": "1111111111A",
         "urlPictureProfile": "https://dl.reseau-ges.fr/public/dcj6AO1JD5_t-PdBOWigoDwNb1YV7-cvx_KvxH9QFt4?pfdrid_c=true"
     },
-    
     "emergency": {
         "iceType": "Mère",
         "iceFirstName": "Albane",
@@ -35,6 +60,91 @@
         "iceTelephone": "0100000001",
         "iceMobile": "0700000001",
         "iceTelephoneTravail": "0800000001"
-    }
-
+    },
+    "contactgroups":[
+        {
+            "id":1,
+            "title":"Direction Ecole",
+            "contacts":[
+                {
+                    "id":1,
+                    "lastname":"RECTEUR",
+                    "firstname":"Eddy",
+                    "job":"Directeur Ecole",
+                    "tel":"01 02 03 04 05",
+                    "email":"address1@ecole.fr"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "title":"Organisation Ecole",
+            "contacts":[
+                {
+                    "id":2,
+                    "lastname":"NISATION",
+                    "firstname":"Olga",
+                    "job":"Directrice Organisation Ecole",
+                    "tel":"01 02 03 04 05",
+                    "email":"address1@ecole.fr"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "title":"Service Pédagogique",
+            "contacts":[
+                {
+                    "id":3,
+                    "lastname":"GOGIQUE",
+                    "firstname":"Pedro",
+                    "job":"Directeur Service Pédagogique",
+                    "tel":"01 02 03 04 05",
+                    "email":"address1@ecole.fr"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "title":"Service Admissions",
+            "contacts":[
+                {
+                    "id":4,
+                    "lastname":"MISSIONS",
+                    "firstname":"Hassad",
+                    "job":"Directeur Service Admissions",
+                    "tel":"01 02 03 04 05",
+                    "email":"address1@ecole.fr"
+                }
+            ]
+        },
+        {
+            "id":5,
+            "title":"Service Relations Entreprises",
+            "contacts":[
+                {
+                    "id":5,
+                    "lastname":"ASSION-ENTREPRISES",
+                    "firstname":"Aurel",
+                    "job":"Directeur Service Relations Entreprises",
+                    "tel":"01 02 03 04 05",
+                    "email":"address1@ecole.fr"
+                }
+            ]
+        },
+        {
+            "id":6,
+            "title":"Service comptabilité",
+            "contacts":[
+                {
+                    "id":6,
+                    "lastname":"TABILITE",
+                    "firstname":"Akon",
+                    "job":"Directeur Service comptabilité",
+                    "tel":"01 02 03 04 05",
+                    "email":"address1@ecole.fr"
+                }
+            ]
+        }
+    ]
 }
