@@ -1,38 +1,87 @@
 {
-    "posts": [
+    "posts":[
         {
             "id": 1,
             "title": "hello"
         }
     ],
-    "agendas":[
+    "agendaEntries":[
         {
             "id":1,
             "title":"JAVA",
-            "description":"",
+            "type":"Cours",
+            "description":"Mise à niveaux : Bases",
             "startDate":"2017/09/18 9:45",
             "endDate":"2017/09/18 11:15",
-            "professor":"M. Java"
+            "professor":"M. Java",
+            "updateTime": "2017/09/18 9:45",
+            "idTeacher": 56124,
+            "idPlace":1,
+            "placeUpdateTime": "2017/09/18 9:45"
         },
         {
             "id":2,
             "title":"JAVA",
+            "type":"TP",            
             "description":"",
             "startDate":"2017/09/18 11:30",
             "endDate":"2017/09/18 13:00",
-            "professor":"M. Java"
+            "professor":"M. Java",
+            "updateTime": "2017/09/18 9:45",            
+            "idTeacher": 56124,
+            "idPlace":2,
+            "placeUpdateTime": "2017/09/18 9:45"
         },
         {
             "id":3,
-            "title":"Thérorie des langages",
+            "title":"Finance d'Entreprise et Marchés Boursiers",
+            "type":"Cours",
             "description":"",
             "startDate":"2017/09/18 14:00",
             "endDate":"2017/09/18 15:30",
-            "professor":"M. Lang"
+            "professor":"M. Lang",
+            "updateTime": "2017/09/18 9:45",            
+            "idTeacher": 56125,
+            "idPlace":2,
+            "placeUpdateTime": "2017/09/18 9:45"            
         }
     ],
-    "profiles": 
-    [
+    "places":[
+        {
+            "id":1,
+            "title":"NA SALLE A23",
+            "description":"Site de Nation",
+            "address1": "55 rue Diderot",
+            "address2": "",
+            "city": "Paris",
+            "zipcode": "77330",
+            "country": "FRANCE",
+            "placeUpdateTime": "2017/09/18 9:45" 
+        },
+        {
+            "id":2,
+            "title":"NA SALLE A54",
+            "description":"Site de Nation",
+            "address1": "55 rue Diderot",
+            "address2": "",
+            "city": "Paris",
+            "zipcode": "77330",
+            "country": "FRANCE",
+            "placeUpdateTime": "2017/09/18 9:45" 
+        },
+        {
+            "id":3,
+            "title":"NA SALLE A23",
+            "description":"Site de Beaugrenelle",
+            "address1": "35 quai André Citroën",
+            "address2": "",
+            "city": "Paris",
+            "zipcode": "75015",
+            "country": "FRANCE",
+            "placeUpdateTime": "2017/09/18 9:45" 
+        }
+    ],
+    "profiles":[
         {
             "id": "1234567",
             "idstudent": "2017-ESGI-123456",
@@ -109,7 +158,7 @@
                 }
             ]
         },
-        {
+       {
             "id":2,
             "title":"Organisation Ecole",
             "contacts":[
@@ -175,7 +224,7 @@
         },
         {
             "id":6,
-            "title":"Service comptabilité",
+           "title":"Service comptabilité",
             "contacts":[
                 {
                     "id":6,
