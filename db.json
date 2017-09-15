@@ -34,7 +34,7 @@
     "profiles": 
     [
         {
-            "uid": "1234567",
+            "id": "1234567",
             "idstudent": "2017-ESGI-123456",
             "civ": "M.",
             "firstname": "John",
@@ -64,7 +64,7 @@
             }
         },
         {
-            "uid": "9876543",
+            "id": "9876543",
             "idstudent": "2017-ESGI-123456",
             "civ": "M.",
             "firstname": "John",
