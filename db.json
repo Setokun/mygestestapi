@@ -65,7 +65,7 @@
         },
         {
             "id":3,
-            "title":"NA SALLE A23",
+           "title":"NA SALLE A23",
             "description":"Site de Beaugrenelle",
             "address1": "35 quai André Citroën",
             "address2": "",
@@ -137,130 +137,146 @@
             }
         }
     ],
-    "contactgroups":[
-        {
-            "id":1,
-            "title":"Direction Ecole",
-            "contacts":[
-                {
-                    "id":1,
-                    "lastname":"RECTEUR",
-                    "firstname":"Eddy",
-                    "job":"Directeur Ecole",
-                    "tel":"01 02 03 04 05",
-                    "email":"address1@ecole.fr"
-                }
-            ]
-        },
-       {
-            "id":2,
-            "title":"Organisation Ecole",
-            "contacts":[
-                {
-                    "id":2,
-                    "lastname":"NISATION",
-                    "firstname":"Olga",
-                    "job":"Directrice Organisation Ecole",
-                    "tel":"01 02 03 04 05",
-                    "email":"address2@ecole.fr"
-                }
-            ]
-        },
-        {
-            "id":3,
-            "title":"Service Pédagogique",
-            "contacts":[
-                {
-                    "id":3,
-                    "lastname":"GOGIQUE",
-                    "firstname":"Pedro",
-                    "job":"Directeur Service Pédagogique",
-                    "tel":"01 02 03 04 05",
-                    "email":"address3@ecole.fr"
-                }
-            ]
-        },
-        {
-            "id":4,
-            "title":"Service Admissions",
-            "contacts":[
-                {
-                    "id":4,
-                    "lastname":"MISSIONS",
-                    "firstname":"Hassad",
-                    "job":"Directeur Service Admissions",
-                    "tel":"01 02 03 04 05",
-                    "email":"address4@ecole.fr"
-                },
-                {
-                    "id":7,
-                    "lastname":"MISSIONS",
-                    "firstname":"Servissad",
-                    "job":"Assistant Service Admissions",
-                    "tel":"01 06 07 08 09",
-                    "email":"address7@ecole.fr"
-                }
-            ]
-        },
-        {
-            "id":5,
-            "title":"Service Relations Entreprises",
-            "contacts":[
-                {
-                    "id":5,
-                    "lastname":"ASSION-ENTREPRISES",
-                    "firstname":"Aurel",
-                    "job":"Directeur Service Relations Entreprises",
-                    "tel":"01 02 03 04 05",
-                    "email":"address5@ecole.fr"
-                }
-            ]
-        },
-        {
-            "id":6,
-           "title":"Service comptabilité",
-            "contacts":[
-                {
-                    "id":6,
-                    "lastname":"TABILITE",
-                    "firstname":"Akon",
-                    "job":"Directeur Service comptabilité",
-                    "tel":"01 02 03 04 05",
-                    "email":"address6@ecole.fr"
-                }
-            ]
-        }
-    ],
+    "contactSchool":{
+
+        "title":"POLE PARIS ALTERNANCE",
+        "infos":"L'ensemble de l'équipe pédagogique et le service informatique vous souhaitent une bonne année au sein de l'ICAN",
+        "updateTime":"2017/09/18 9:45",
+        "contactGroups":[
+            {
+                "title":"Direction Ecole",
+                "infos": "",
+                "contacts":[
+                    {
+                        "id":1,
+                        "lastname":"RECTEUR",
+                        "firstname":"Eddy",
+                        "job":"Directeur Ecole",
+                        "tel":"01 02 03 04 05",
+                        "email":"address1@ecole.fr",
+                        "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+                    }
+                ]
+            },
+            {
+                "title":"Organisation Ecole",
+                "infos":"",
+                "contacts":[
+                    {
+                        "id":2,
+                        "lastname":"NISATION",
+                        "firstname":"Olga",
+                        "job":"Directrice Organisation Ecole",
+                        "tel":"01 02 03 04 05",
+                        "email":"address2@ecole.fr",
+                        "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+                    }
+                ]
+            },     {
+                "title":"Service Pédagogique",
+                "infos":"Les bureaux du service Pédagogique sont ouverts du lundi au vendredi de 9h à 18h",
+                "contacts":[
+                    {
+                        "id":3,
+                        "lastname":"GOGIQUE",
+                        "firstname":"Pedro",
+                        "job":"Directeur Service Pédagogique",
+                        "tel":"01 02 03 04 05",
+                        "email":"address3@ecole.fr",
+                        "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+                    }
+                ]
+            },
+            {
+                "title":"Service Admissions",
+                "infos":"",
+                "contacts":[
+                    {
+                        "id":4,
+                        "lastname":"MISSIONS",
+                        "firstname":"Hassad",
+                        "job":"Directeur Service Admissions",
+                        "tel":"01 02 03 04 05",
+                        "email":"address4@ecole.fr",
+                        "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+                    },
+                    {
+                        "id":7,
+                        "lastname":"MISSIONS",
+                        "firstname":"Servissad",
+                        "job":"Assistant Service Admissions",
+                        "tel":"01 06 07 08 09",
+                        "email":"address7@ecole.fr",
+                        "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+                    }
+                ]
+            },
+            {
+                "title":"Service Relations Entreprises",
+                "infos":"",
+                "contacts":[
+                    {
+                        "id":5,
+                        "lastname":"ASSION-ENTREPRISES",
+                        "firstname":"Aurel",
+                        "job":"Chargé des relations entreprises",
+                        "info":"Campus Jourdan",
+                        "tel":"01 02 03 04 05",
+                        "email":"address5@ecole.fr",
+                        "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+                    }
+                ]
+            },
+            {
+                "title":"Service comptabilité",
+                "infos":"",
+                "contacts":[
+                    {
+                        "id":6,
+                        "lastname":"TABILITE",
+                        "firstname":"Akon",
+                        "job":"Directeur Service comptabilité",
+                        "tel":"01 02 03 04 05",
+                        "email":"address6@ecole.fr",
+                        "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+                    }
+                ]
+            }
+        ]
+    },
     "marks":[
         {
-            "subject":"JAVA",
-            "score":"12",
-            "isExam":false
+            "subject":"Algorithmique & complexité",
+            "id":12,
+            "teacherId" : 35,
+            "marks":[8,-1,18.5],
+            "exam": 9,
+            "ects": 2,
+            "coef": 2,
+            "uvAverage":10,
+            "updateTime": "2017/09/08 9:45" 
         },
         {
-            "subject":"JAVA",
-            "score":"15",
-            "isExam":false
+            "subject":"Anglais Préparation TOEIC 1 AL1/AL2/MCSI1/MCSI2/SRC3/SRC4 G1",
+            "id":1,
+            "teacherId" : 25,
+            "marks":[11,8.5],
+            "exam": 20,
+            "ects": 1,
+            "coef": 1,
+            "uvAverage":5,
+            "updateTime": "2017/05/08 19:45" 
         },
         {
-            "subject":"JAVA",
-            "score":"11",
-            "isExam":true
-        },
-        {
-            "subject":"Théorie des langages",
-            "score":"9",
-            "isExam":false
-        },
-        {
-            "subject":"Théorie des langages",
-            "score":"10",
-            "isExam":false
-        },
-        {
-            "subject":"Théorie des langages",
-            "score":"19",
-            "isExam":true
+            "subject":"Management de projet SI : CdC, risque et pilotage ",
+            "id":13,
+            "teacherId" : 20,
+            "marks":[17,12,5.5,20],
+            "exam": -1,
+            "ects": 2,
+            "coef": 1,
+            "uvAverage":12,
+            "updateTime": "2017/09/08 9:45" 
         }
     ]
 }
